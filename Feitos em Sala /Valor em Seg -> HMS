@@ -1,0 +1,11 @@
+eg = int(input("Digite o valor em segundos: "))
+
+min = int(seg/60)
+
+seg %= 60
+
+hora = int(min/60)
+
+min %= 60
+
+print(f'{hora}:{min}:{seg}')
