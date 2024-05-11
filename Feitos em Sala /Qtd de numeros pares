@@ -1,0 +1,19 @@
+x1 = int(input("Digite um numero: "))
+x2 = int(input("Digite um numero: "))
+x3 = int(input("Digite um numero: "))
+x4 = int(input("Digite um numero: "))
+x5 = int(input("Digite um numero: "))
+contador = 0
+
+if x1 % 2 == 0:
+  contador += 1
+if x2 % 2 == 0:
+  contador += 1
+if x3 % 2 == 0:
+  contador += 1
+if x4 % 2 == 0:
+  contador += 1
+if x5 % 2 == 0:
+  contador += 1
+
+print(f'{contador} números são pares')
