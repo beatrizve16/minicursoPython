@@ -1,0 +1,13 @@
+nome = (input('Digite o nome:'))
+
+
+f = int(input('Digite a forca aplicada:'))
+
+
+if f > 1000:
+    print(nome,'conseguiu levantar o Mjolnir')
+
+
+else:
+    if f < 1000:
+        print(nome,'nao conseguiu levantar o Mjolnir')
