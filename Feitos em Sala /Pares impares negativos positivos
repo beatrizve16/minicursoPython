@@ -1,0 +1,21 @@
+contPar = 0
+contImpar = 0
+contNeg = 0
+contPos= 0
+i = 5
+
+while i != 0:
+  meuPai = int(input("Digite um número: "))
+  if meuPai % 2 == 0:
+    contPar+=1  # contPar = contPar + 1
+  else:
+    contImpar+=1 # contImpar = contImpar + 1
+
+  if meuPai > 0:
+    contPos+=1 # contPos = contPos + 1
+  elif meuPai < 0:
+    contNeg+=1 # contNeg = contNeg + 1
+
+  i-=1 # i = i - 1
+
+print(f'{contPar} valor(es) par(es)\n{contImpar} valor(es) ímpar(es)\n{contNeg} valor(es) negativo(s)\n{contPos} valor(es) posi
