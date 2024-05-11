@@ -1,0 +1,36 @@
+maior=0
+menor = 0
+n = 0
+
+
+n=int(input('Digite um numero(-1 para resultado):'))
+
+
+maior = n
+menor = n
+
+
+
+
+
+
+while n!=-1:
+    n=int(input('Digite um numero(-1 para resultado):'))
+   
+    if n > maior:
+        maior = n
+
+
+    
+        if n < menor:
+            while  n!=-1:
+                menor = n   
+
+
+    if n == -1:
+        break
+
+
+print("O menor numero  e" , menor)
+print("O maior numero  e" , maior)
+
