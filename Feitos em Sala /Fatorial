@@ -1,0 +1,9 @@
+from time import sleep
+fat = int(input("Entre com um numero para calcular o fatorial: "))
+
+for x in range(fat-1, 0, -1):
+    sleep(1)
+    print(f"Valor de x: {x}\nValor de Fatorial: {fat}")
+    fat *= x
+
+print(fat)
