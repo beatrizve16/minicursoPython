@@ -1,0 +1,24 @@
+maiorNumero = -1
+contador = 0
+while True:
+  galinhaDeTenis = float(input("Digite a nota(digite um negativo para parar): "))
+  if galinhaDeTenis < 0:
+    break
+
+  # if galinhaDeTenis >= maiorNumero:
+  #   if galinhaDeTenis != maiorNumero:
+  #     contador = 1
+  #     maiorNumero = galinhaDeTenis
+  #   else:
+  #     contador += 1
+
+  if galinhaDeTenis > maiorNumero:
+    contador = 1
+    maiorNumero = galinhaDeTenis
+  elif galinhaDeTenis == maiorNumero:
+    contador += 1
+
+if maiorNumero == -1:
+  print("Nenhuna nota digitada")
+else:
+  print(f'Maior nota: {maiorNumero}\nQtd: {contador}')
