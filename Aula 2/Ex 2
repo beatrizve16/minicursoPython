@@ -1,0 +1,19 @@
+x = float(input('Digite o valor de x '))
+y = float(input('Digite o valor de y '))
+
+
+rafael= 2*(x*x)+((5*y)*(5*y))
+beto = 2* (x*x) + 5*(y*y)
+carlos= -100*x+(y*y*y)
+
+
+
+
+if rafael>beto and rafael>carlos :
+    print('Rafael ganhou')
+else:
+        if beto>rafael and beto>carlos:
+            print('Beto ganhou')
+        else:
+                if carlos>beto and carlos>rafael:
+                    print('Carlos ganhou')
