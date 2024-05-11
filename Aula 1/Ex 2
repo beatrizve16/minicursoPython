@@ -1,0 +1,6 @@
+x = float(input('Digite a base do triangulo:'))
+y = float(input('Digite a altura do triangulo'))
+
+area = float((x*y)/2)
+
+print(area)
