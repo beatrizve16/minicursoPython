@@ -1,0 +1,14 @@
+x = int(input("Quantidade: "))
+
+numeros = ""
+for i in range(x):
+    num = int(input())
+
+    if num <= 0:
+        num = 1
+        numeros += str(num)
+    else:
+        numeros += str(num)
+
+for c in numeros:
+    print(c)
